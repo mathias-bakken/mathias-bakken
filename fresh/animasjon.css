@@ -13,13 +13,13 @@
     }
         
     @keyframes gaaTur {
-        0% { top:90%; right: 0%; transform: rotate(90deg);}
-        23% { top:0%; right: 0%; transform: rotate(90deg);}
-        25% { top:0%; right: 0%;transform: rotate(90deg);}
-        48% { top:0%; right: 100%;transform: rotate(180deg);}
-        50% { top:0%; right: 100%;transform: rotate(1800deg);}
-        75% { top: 10%; right: 2%;transform: rotate(270deg);}
-        77% { top: 10%; right: 2%;transform: rotate(270deg);}
-        96% { top: 82%; right: 2%;transform: rotate(-450deg);}
-        100% { top: 82%; right: 2%;transform: rotate(-540deg);}
+        0% { top:72%; left: 20%; transform: rotate(-180deg);}
+        23% { top:72%; left: 72%; transform: rotate(-180deg);}
+        25% { top:72%; left: 72%;transform: rotate(-270deg);}
+        48% { top:10%; left: 72%;transform: rotate(-270deg);}
+        50% { top: 8%; left: 72%;transform: rotate(-360deg);}
+        75% { top: 8%; left: 20%;transform: rotate(-360deg);}
+        77% { top: 8%; left: 20%;transform: rotate(-450deg);}
+        96% { top: 72%; left: 20%;transform: rotate(-450deg);}
+        100% { top: 72%; left: 20%;transform: rotate(-540deg);}
     }
