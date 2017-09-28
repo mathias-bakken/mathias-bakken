@@ -1,0 +1,123 @@
+#topp {
+    position: absolute;
+    background: url("logo.png") no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #31a6ff; 
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 10%;
+    text-align: center;  
+}
+
+#meny {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 20%;
+    height: 86.8%;
+    background: url(norgeiphone.jpg) no-repeat;
+    
+}
+
+ul {
+    -webkit-padding-start: 0;
+}
+
+li {
+    display: block;
+}
+
+li a {
+    text-decoration: none;
+    color: #31a6ff;
+    display: block;
+    margin: 10px;
+    text-align: center;
+    padding-top: 10px;
+    height: 2em;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px white; 
+    border: solid 2px;
+     
+}
+
+li a:hover {
+    box-shadow: 2px 2px 2px #31a6ff;
+    color: white;
+    background-color: #31a6ff
+}
+
+li a:active {
+    transform: translate(2px,2px);
+    box-shadow: none;
+}
+
+li a.showing {
+    background: #31a6ff;
+    color: white;
+}
+
+#hoved {
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    height: 86.8%;
+    width: 80%;
+    background-color: none;
+    text-align: center;
+    background: url("logo2.png");
+    background-size: 0.2em; 
+}
+
+#bunntekst {
+    position: absolute;
+    left: 0px;
+    bottom: 0%;
+    width: 100%;
+    height: 3.2%;
+    background-color:#31a6ff;
+    text-align: left;
+    font-size: 0.84em;
+    color: rgb(255, 255, 255);
+}
+
+.skjema {
+    background-color: none;
+    position: absolute;
+    top: 30%;
+    left: 43%;
+    font-family: "proxima-nova";
+}
+
+.nummer {
+    position: absolute;
+    bottom: 6%;
+    left: 10%;
+    font-size: 3em;
+    color: white;
+    border: solid 2px;
+}
+
+.email {
+    position: absolute;
+    padding: 5px;
+    bottom: 6%;
+    right: 10%;
+    font-size: 3em;
+    color: white;
+    border: solid 2px;
+}
+
+.email:hover{
+    background-color: #31a6ff; 
+    transition-duration: 300ms;
+}
+
+.nummer:hover{
+    background-color: #31a6ff;
+    transition-duration: 300ms;
+}

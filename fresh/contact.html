@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="contact.css">
+
+    <title>
+        Fresh air
+    </title>
+
+</head>
+
+<body>
+    <div id="meny">
+        <ul>
+            <li> <a href="index.html"> Home</a> </li>
+            <li> <a href="products.html">Products</a> </li>
+            <li> <a href="aboutus.html">About us</a> </li>
+            <li> <a class="showing" href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="bunntekst"> © 2017 Mathias Døske Bakken </div>
+    <div id="hoved"></div>
+    <div id="topp"></div>
+    
+    <form class="skjema">
+        
+            <br><label> Your e-mail: <input type="text"> </label>
+        
+            <br>
+        
+            <br><label> Your phonenumber: <input type="text"> </label>
+        
+            <br>
+        
+            <br><label> Your name: 
+                <input id="navn" type="text"> </label>
+        
+            <br>
+        
+            <br><button id="Save" type="button">Save</button>
+    </form>
+
+    <script>
+        let btn = document.getElementById("Save");
+        btn.addEventListener("click", SaveData);
+    
+        function SaveData() {
+            let navn = document.getElementById("navn").value;
+            alert("Hei " + navn + ", selv om at du heter " + navn + ", kan vi ikke kjelpe deg.");
+        }
+    
+    </script>
+
+</body>
+
+</html>
