@@ -1,0 +1,22 @@
+#meny {
+    background-image: linear-gradient(to right, white,#4F4F4F);;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    width: 20%;
+    height: 100%;
+}
+    
+#innhold {
+    position: absolute;
+    left: 20%;
+    bottom: 0%;
+    width: 80%;
+    height: 100%;
+    background: white;
+}
+
+#tittel {
+    font-size: 2em;
+    color: red;
+}
