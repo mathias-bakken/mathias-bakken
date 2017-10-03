@@ -82,3 +82,7 @@ li a.showing {
     font-size: 0.84em;
     color: rgb(255, 255, 255);
 }
+
+#video {
+    top: 100px;
+}
