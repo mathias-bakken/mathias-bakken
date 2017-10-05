@@ -1,0 +1,9 @@
+#hoved {
+    position: absolute;
+    background: url(bilder/bakgrunn.jpg);
+    background-size: cover;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    left: 0%;
+}
