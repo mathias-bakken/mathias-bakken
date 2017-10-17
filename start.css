@@ -6,4 +6,43 @@
     height: 100%;
     width: 100%;
     left: 0%;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+#hoved ul {
+    -webkit-padding-start: 0;
+}
+
+#hoved li {
+  display: block;
+}
+
+#hoved li a {
+    text-decoration: none;
+    color:whitesmoke;
+    display: block;
+    margin: 8px;
+    text-align: center;
+    padding-top:10px;
+    height: 2em;
+    background: gray;  
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px white;
+    width: 200px; 
+}
+
+#hoved li a:hover {
+   box-shadow: 1px 1px 1px white; 
+}
+
+#hoved li a:active {
+    transform: translate(2px,2px); 
+    box-shadow: none; 
+ }
+
+#hoved li a.showing {
+    background: whitesmoke;
+    color:gray;
 }

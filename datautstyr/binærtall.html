@@ -10,7 +10,7 @@
 
     <title>Datautstyr</title>
 
-    <h1>Binærtall</h1>
+    <h1>Binærtall - Bits and bytes - Transistoren - Minne - CPU - UTF-8 og ascii - ROM og RAM</h1>
 
 </head>
 
@@ -30,16 +30,63 @@
             <td>32-bit 25 MHz 68040 microprocessor</td>
             <td>533 MHz Celeron processor, with MHz system bus</td>
             <td>32-nanometer microprocessor</td>
-            <td></td>
+            <td>Corsair Vengeance LPX 32GB 3000MHz</td>
         </tr>
         <tr>
             <td>Antall T</td>
             <td>1.2 million</td>
             <td>25 million</td>
             <td>1.3 billion</td>
-            <td></td>
+            <td>10 billion</td>
         </tr>
     </table>
+
+
+    <div id="main">
+        <div> <h1>Bits and bytes</h1>
+            Bits opptrer sjelden enkeltvis i en datamaskin. De er neste alltid samlet sammen i samlinger på åtte. Når du grupperer åtte bits sammen får du en byte. Altså 1 byte = 8 bits. Denne inndelingen er noe man har kommet frem til gjennom prøving og feiling.
+        </div>
+
+        <div> <h1>Transistoren</h1>
+            Transistoren er den viktigste komponenten i alle elektroniske kretser og apparater. I de første datamaskinene brukte man radiorør, men i løpet av 50- og 60-årene ble de erstattet av transistorer. Transistoren var overlegen i driftsikkerhet, energiforbruk og ikke minst i størrelse.
+            
+            Transistorer finnes i utallige utførelser i alt fra mikrotransistorer, som er en del av en mikroprosessor, til store effekttransistorer for bruk i strømforsyning
+            
+            En transistor kan brukes på to måter, enten som en bryter eller som en forsterker. I digitale maskiner er det egenskapen som bryter som er viktig. Den gjør at vi kan styre strømmen av data mellom komponenter, og vi kan konstruere logiske kretser som kan utføre operasjoner. Transistoren er datamaskinens byggesten og "arbeidshest", og den inngår i alle komponenter fra prosessor, styringskretser og minne.
+        </div>
+        <div> <h1>Binærtall</h1>
+            Man må kjenne det binære tallsystemet for å forstå hvordan data lagres og aritmetiske operasjoner blir utført i en datamaskin.
+            
+            Tallene i en mikroprosessor er representert med et spenningsnivå hvor en transistor enten blir slått av eller på, for eksempel:
+            
+            0 volt = 0 binært, 5 volt = 1 binært
+        </div>
+        <div> <h1>Minne</h1>
+            Moderne minne
+            Gjennom tidene har minne kommet i mange forskjellige former, størrelser og type teknologi. Det vi i dag snakker om når vi sier "minne" er det som også er kjent som "systemminne" eller RAM (Random Access Memory), som er små modulkort på størrelse med en stor pakke tyggegummi. På en slik modul sitter det flere minnebrikker og disse kommer i forskjellige størrelser, noe som til sist avgjør størrelsen på selve minnemodulen.
+            
+            I dag finner man slike moduler fra 128 MB til 2 GB. De aller fleste maskiner har to eller flere plasser for slike minnemoduler, og fysisk er det enkelt å bytte de ut eller sette i en ekstra.
+        </div>
+        <div><h1>CPU</h1>
+            CPU er utførende enhet i en datamaskin. Navnet Central Processing Unit stammer fra den tiden det var bare en utførende enhet i en datamaskin. CPU som begrep brukes fortsatt, men det finnes mange typer og varianter. Prosessor er et ofte brukt synonym.
+        </div>
+        <div><h1>UTF-8 og ascii</h1>
+            UTF-8 er for tiden standardisert i RFC 3629 og er et av flere tegnkodeformater i ISO/IEC 10646.
+            
+            Bitene i et Unicode-tegn er delt inn i flere grupper. Tegn nummerert under 128 blir kodet med en enkelt byte som inneholder deres posisjon: Disse samsvarer nøyaktig med de 128 7-biters ASCII-tegnene. Til andre tegn brukes opp til fire byte. Den første biten i disse blir alltid satt til 1, for å skille tegnene fra 7-bits ASCII-tegn. De første 128 tegnene (0-127) av Unicode er de samme som ISO-8859-1, så det er enkelt å konvertere mellom disse tegnsettene. Tegnene med nummer 128 – 255, deriblant Æ, Ø, Å, æ,ø og å, blir 2 bytes i UTF-8.
+        </div>
+        <div><h1>ROM og RAM</h1>
+            Oppsummering : 
+            ROM brukes til oppbevaring av programmer hvile RAM brukes av programmer til å holde midlertidige data. 
+            RAM er en type minne som kan nås ikke-sekvensielt, mens ROM er en type minne som bare leses i typisk drift. 
+            ROM er ikke-flyktig mens RAM er flyktig. 
+            RAM er betydelig raskere enn ROM.
+            <b></b>
+            RAM er Random Access Memory . Dette er gjenbrukbare minne som datamaskinen bruker til å kjøre programmer . 
+            ROM er ... 
+            ROM er Read Only Memory . Dette er minne som har data permanent skrevet på det og er vanligvis ikke gjenbrukes .  
+        </div>
+    </div>
 </body>
 
 </html>
