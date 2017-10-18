@@ -25,7 +25,8 @@ h1 {
 #main div {
     background: #3975b6;
     width: 20em;
-    height: 30em;
+    min-height: 20em;
     margin: 1em;
     padding: 0.5em;
+    m
 }
