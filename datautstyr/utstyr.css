@@ -11,3 +11,12 @@
     height: 20em;
     margin: 1em;
 }
+
+li {
+    list-style-type: none;
+    color: white;
+}
+ 
+li a {
+     text-decoration: none;
+}

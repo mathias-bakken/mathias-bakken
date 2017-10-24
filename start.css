@@ -11,15 +11,16 @@
     text-align: center;
 }
 
-#hoved ul {
+ul {
     -webkit-padding-start: 0;
 }
 
-#hoved li {
+li {
   display: block;
+  list-style-type: none;
 }
 
-#hoved li a {
+li a {
     text-decoration: none;
     color:whitesmoke;
     display: block;
@@ -31,19 +32,18 @@
     border-radius: 5px;
     box-shadow: 3px 3px 3px white;
     width: 200px; 
-    text-decoration: none;
 }
 
-#hoved li a:hover {
+li a:hover {
    box-shadow: 1px 1px 1px white; 
 }
 
-#hoved li a:active {
+li a:active {
     transform: translate(2px,2px); 
     box-shadow: none; 
  }
 
-#hoved li a.showing {
+li a.showing {
     background: whitesmoke;
     color:gray;
 }
