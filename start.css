@@ -47,3 +47,8 @@ li a.showing {
     background: whitesmoke;
     color:gray;
 }
+
+#link {
+    left: 0%;
+    top: 50%;
+}

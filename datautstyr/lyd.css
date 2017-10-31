@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    background: #3975b6;
+    background: #3975b6
 }
 
 #main {
@@ -16,5 +16,8 @@ h1 {
     min-height: 20em;
     margin: 1em;
     padding: 0.5em;
-    m
+}
+
+#bilde div{
+background: white;
 }
