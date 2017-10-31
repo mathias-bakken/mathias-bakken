@@ -48,7 +48,14 @@ li a.showing {
     color:gray;
 }
 
-#link {
-    left: 0%;
-    top: 50%;
+#høyrenabo {
+    position: absolute;
+    left: 80%;
+    bottom: 10%;
+}
+
+#venstrenabo {
+    position: absolute;
+    left: 3%;
+    bottom: 10%;
 }
