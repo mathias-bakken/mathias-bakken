@@ -5,10 +5,11 @@
 
 
 header {
-    color:green;
+    color: black;
     font-size: 1.2em;
     padding: var(--fyll);
     padding-bottom: 20px;
+    text-align: center;
 }
 
 article {
@@ -18,11 +19,28 @@ article {
 
 #liste {
     width: 90vw;
-    min-height: 50vh;
+    min-height: 5vh;
     border: 2px solid red;
     padding: 1em;
+    text-align: center;
 }
 
 .kunde {
   background-color: whitesmoke;
+}
+
+li:nth-child(odd){
+    color: blue;
+}
+
+li:nth-child(even){
+    color: red;
+}
+
+#dyr {
+    width: 90vw;
+    min-height: 50vh;
+    border: 2px solid red;
+    padding: 1em;
+    background-color: whitesmoke;
 }
