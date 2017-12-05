@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="webshop.css">
+    <title>Webshop</title>
+</head>
+
+<body>
+    
+
+    <div id="topp"><header>
+        <h1>Webshop</h1>
+    </header></div>
+    <div id="bunntekst"> © 2017 Mathias Døske Bakken </div>
+<div class="hoved"> 
+       Velg varer 
+    <select>
+            <option value="fotball">Fotball</option>
+    </select>
+    <p>
+        <form action="/action_page.php">
+            <input type="antall" value="Antall">
+        </form> 
+    </p>
+
+    <p>
+        <form action="/action_page.php">
+            <input type="adresse" value="Adresse">
+        </form> 
+    </p>
+
+    <p>Betaling: 
+        <form>
+            <input type="radio" name="betaling" value="visa" checked> Visa
+            <input type="radio" name="betaling" value="mastercard"> MasterCard
+            <input type="radio" name="betaling" value="bitcoin"> Bitcoin
+        </form>
+    </p>
+    <p>Er gave?  
+            <form>
+                <input type="radio" name="jaellernei" value="ja" checked> Ja
+                <input type="radio" name="jaellernei" value="nei"> Nei
+            </form>
+    </p>
+    <p>
+        <form action="/action_page.php" method="get">
+            <button type="bestill" value="Bestill">Bestill...</button>
+        </form>
+    </p>
+    <div>
+        
+    </div>
+</div>
+    
+</body>
+
+</html>
