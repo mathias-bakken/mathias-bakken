@@ -11,6 +11,9 @@
 }
 
 .star {
+    position: relative;
+    top: 0px;
+    left: 0px;
     width: 10px;
     height: 10px;
     background-color: yellow;
