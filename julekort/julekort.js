@@ -1,5 +1,5 @@
 function setup() {
-    let divSky = document.getElementById("sky");
+    let divSky = document.getElementById("snow");
     let divSanta = document.getElementById("santa");
     let stars = divSky.querySelectorAll(".star");
     stars.forEach( stjerne => {
@@ -16,4 +16,34 @@ function setup() {
         pakke.style.top = (e.screenY - 50) + "px";
         divSky.appendChild(pakke);
     }
+
+    function makeSnow() {
+        for (let i=0; i < 54; i++) {
+            let snow = document.createElement('div');
+            snow.className = "snow";
+            snow.style.left = Math.random()*100 + "vw";
+            snow.style.animationDelay = Math.random() * 5000 + "ms";
+            let radius = Math.random()*10 + 1;
+            snow.style.width = radius + "px";
+            snow.style.height = radius + "px";           
+            divSky.appendChild(snow);
+        }
+    }
+
+    makeSnow();
+
+    function cannonSnow() {
+        for (let i=0; i < 44; i++) {
+            let snow = document.createElement('div');
+            snow.className = "powder";
+            // snow.style.left = Math.random()*10 + "vw";
+            snow.style.animationDelay = Math.random() * 5000 + "ms";
+            let radius = Math.random()*10 + 1;
+            snow.style.width = radius + "px";
+            snow.style.height = radius + "px";           
+            divSky.appendChild(snow);
+        }
+    }
+    
+    makeSnow();
 }
