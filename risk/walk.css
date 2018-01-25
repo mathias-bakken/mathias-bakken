@@ -1,0 +1,36 @@
+#main {
+    position: relative;
+
+}
+
+#fig {
+    position: absolute;
+    left: 0;
+    top: calc(100vh - 120px);
+    width: 110px;
+    height: 110px;
+    background-image: url("walking.png");
+    background-position-x: 0;
+    background-position-y: -224px;
+    animation: legs 1000ms steps(8) infinite,
+               walk 12s linear;
+    animation-fill-mode: forwards; 
+}
+
+@keyframes walk {
+    100% {left: 70vw; }
+}
+
+@keyframes legs {
+    100% { background-position-x: -894px; }
+}
+
+#boks {
+    position: absolute;
+    left: 75vw;
+    width: 30px;
+    top: calc(100vh - 50px);
+    height: 30px;
+    border: solid gray 1px;
+    border-radius: 3px;
+}

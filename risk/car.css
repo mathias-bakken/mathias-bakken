@@ -1,0 +1,66 @@
+#main {
+    position: relative;
+
+}
+
+#car {
+    position: absolute;
+    left: -30vw;
+    top: 65px;
+    width: 394px;
+    height: 166px;
+    background-image: url("crash.png");
+    animation: drive 4s linear forwards,
+    liftup 0.77s 4.2s linear forwards,
+    liftdown 0.9s 10.1s linear forwards,
+    driveout 2s 13s linear forwards;
+}
+
+#lift {
+    position: absolute;
+    left: 50vw;
+    top: 40vh;
+    width: 512px;
+    height: 512px;
+    background-image: url("lift.png");
+    animation: up 2s 3.7s linear forwards,
+    down 2s 9s linear forwards;
+}
+
+#workers {
+    
+}
+
+@keyframes drive {
+    0% { left: -20vw; top: 50vh;}
+    100% {left: 50vw; top: 50vh; }
+}
+
+@keyframes liftup {
+    0% { left: 50vw; top: 50vh;}
+    100% { left: 50vw; top: 30vh;}
+}
+
+@keyframes liftdown {
+    0% { left: 50vw; top: 30vh; background-image: url("brabil.png"); width: 600px; height: 198px;}
+    100% { left: 50vw; top: 50vh; background-image: url("brabil.png"); width: 600px; height: 198px;}
+}
+
+@keyframes driveout {
+    0% { left: 50vw; top: 50vh; background-image: url("brabil.png"); width: 600px; height: 198px;}
+    100% { left: 100vw; top: 50vh; background-image: url("brabil.png"); width: 600px; height: 198px;}
+}
+
+@keyframes up {
+    0% { left: 50vw; top: 40vh; }
+    28% { left: 50vw; top: 40vh;}
+    62% { left: 50vw; top: 20vh;}
+    80% { left: 50vw; top: 20vh;}
+    100% { left: 50vw; top: 20vh;}
+}
+
+@keyframes down {
+    0% { left: 50vw; top: 20vh;}
+    60% { left: 50vw; top: 20vh;}
+    100% { left: 50vw; top: 40vh;}
+}
