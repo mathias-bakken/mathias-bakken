@@ -51,13 +51,13 @@ li a.showing {
 #høyrenabo {
     position: absolute;
     left: 80%;
-    bottom: 10%;
+    bottom: 2%;
 }
 
 #venstrenabo {
     position: absolute;
     left: 3%;
-    bottom: 10%;
+    bottom: 2%;
 }
 
 .hexagon {
