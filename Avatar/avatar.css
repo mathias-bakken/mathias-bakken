@@ -1,0 +1,16 @@
+#avatar {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    border: solid 1px black;
+    padding: 10px;
+    height: 100vh;
+}
+
+.grid-item {
+    border: solid 1px black;
+}
+
+#header {
+    position: absolute;     
+}
