@@ -1,0 +1,27 @@
+#topptekst {
+    position: absolute;
+    background-color: #31a6ff; 
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#hoved {
+    position: absolute;
+    left: 0%;
+    top: 15%;
+    width: 100%;
+    height: 85%;
+}
+
+#bunntekst {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 3.5%;
+    background-color: #31a6ff;
+}
