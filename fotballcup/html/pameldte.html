@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/aktiviteter.css">
+    <link rel="stylesheet" href="../css/pameldte.css">
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+    <script src="../pameldte.js"></script>
     <link rel="icon" href="../bilder/logo.png">
     <title>Fotballcup 2018</title>
+    <header>Fotballcup2018</header>
 </head>
 
 <body>
@@ -16,22 +19,12 @@
         <div id="logo"><img src="../bilder/logo.png" alt="logo" width="50" height="50"></div>
     </div>
     <div id="hoved">
-        <img src="../bilder/bakgrunn.jpg" alt="bakgrunn" height="530" width="1280">
+        <img src="../bilder/bakgrunn.jpg" alt="bakgrunn" height="743" width="1280">
     </div>
     <div class="grid-container">
         <ul>
             <li>
                 <a href="../index.html">Tilbake</a>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="triksekonkoranse.html">Triksekonkuranse</a>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="datautstyr.html">Datautstyr</a>
             </li>
         </ul>
         <ul>
@@ -45,7 +38,19 @@
             </li>
         </ul>
     </div>
+    <header>
+        <h1>Lag på cupen</h1>
+        <h4>Se de påmeldte lagene</h4>
+    </header>
+    <article>
+        <div id="liste" class="lag">
+        </div>
+    </article>
     <div id="bunntekst">© 2018 FotballCup2018</div>
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+    <script>
+        setup();
+    </script>
 </body>
 
 </html>
