@@ -39,7 +39,7 @@
 .grid-container {
     position: absolute;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
     background-color: #b1d7ec;
     left: 0%;
     top: 15%;

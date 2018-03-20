@@ -37,7 +37,7 @@
 .grid-container {
     position: absolute;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
     background-color: #b1d7ec;
     left: 0%;
     top: 15%;
@@ -95,7 +95,6 @@ li a.showing {
     min-height: 200px; 
     min-width: 107px;
     filter: sepia(100%);
-    filter: blur(100%);
     flex: 1;
     transition: 2s;
 }
@@ -106,7 +105,6 @@ li a.showing {
     min-width: 500px;
     text-align: center;
     flex: 1;
-    filter: blur(0%);
 }
 
 div.bilde:nth-child(1) {
