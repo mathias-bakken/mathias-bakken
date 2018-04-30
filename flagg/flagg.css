@@ -1,0 +1,29 @@
+.svensk {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    background-color: blue;
+    border: solid gray 1px;
+}
+
+.svensk:after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 20px;
+    top: calc(150px / 2 - 10px);
+    left: 0;
+    background-color: yellow;
+}
+
+.svensk:before {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 150px;
+    left: calc(150px / 2 - 10px);
+    top: 0;
+    background-color: yellow;
+}
